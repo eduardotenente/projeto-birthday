@@ -5,9 +5,15 @@
     padding: 0px;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 header > img {
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
@@ -19,6 +25,9 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 main h1 {
@@ -31,12 +40,11 @@ main h1#rosa {
 }
 
 main p {
-    font-size: 6vw;
-    margin-left: 60px;
+    font-size: 5vw;
+    margin-left: -131px;
     margin-top: 30px;
     margin-bottom: 40px;
-    padding-right: 17px;
-    padding-left: 15px;
+    padding-left: 40px;
 }
 
 main button {
@@ -47,13 +55,13 @@ main button {
     top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 5px 200px 5px 200px;
+    padding: 5px 160px 5px 160px;
 }
 
 main button:hover {
-    padding: 8px 215px 8px 215px;
+    padding: 8px 180px 8px 180px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 main button > a {
