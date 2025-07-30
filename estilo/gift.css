@@ -10,6 +10,7 @@ header > img {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 60%;
 }
 
 main {
@@ -21,7 +22,7 @@ main {
 }
 
 main h1 {
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 main h1#rosa {
@@ -46,13 +47,13 @@ main button {
     top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 7px 225px 7px 225px;
+    padding: 5px 200px 5px 200px;
 }
 
 main button:hover {
-    padding: 9px 230px 9px 230px;
+    padding: 8px 215px 8px 215px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 main button > a {
