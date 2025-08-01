@@ -13,7 +13,7 @@ header > img {
 
         article {
             height: 22vh;
-            width: 70vw;
+            width: 73vw;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -22,7 +22,7 @@ header > img {
             padding-left: 10px;
         }
 
-        h1, p {
+        h1 {
             text-align: center;
             color: hotpink;
             font-size: 2em;
