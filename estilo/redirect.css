@@ -22,11 +22,12 @@ header > img {
             padding-left: 10px;
         }
 
-        h1 {
+        h1, p {
             text-align: center;
             color: hotpink;
             font-size: 2em;
         }
+
 
         button {
             background-color: hotpink;
