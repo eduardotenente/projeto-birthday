@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+            background: black url(../imagens/Fundo\ para\ cartinha\ 🌸🩷💌.jpeg) center top no-repeat fixed;
+            background-size: cover;
+}
+
+header {
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+
+}
+
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+article h2 {
+    font-style: italic;
+    text-align: right;
+    padding-top: 12px;
+}
