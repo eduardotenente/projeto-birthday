@@ -60,18 +60,13 @@ main button {
     padding: 5px 160px 5px 160px;
 }
 
-main button#Not {
-    background-color: rgb(173, 25, 25);
-    top: 150%;
-}
-
 main button:hover {
     padding: 8px 180px 8px 180px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
     transition: 0.3s;
 }
 
-main button > a {
+main a > button {
     color: white;
     text-decoration: none;
     font-weight: bold;
